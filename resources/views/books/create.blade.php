@@ -4,6 +4,7 @@
 <div class="container">
    <div class="text-center">
        <h2>Create a Book</h2>
+       <p><a href="/books">back</a>
    </div>
 </div>
 <form action={{ route('books.store') }} method="POST">
